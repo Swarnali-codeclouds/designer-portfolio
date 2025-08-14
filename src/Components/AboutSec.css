@@ -1,0 +1,20 @@
+.experience-counter h2{
+    font-size: 2.875rem;
+    color: #000000;
+    margin-right: 15px;
+    padding: 0;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+
+}
+.experience-counter p {
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+}
+.counter {
+    margin:40px 0;
+}

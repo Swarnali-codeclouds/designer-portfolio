@@ -1,0 +1,13 @@
+@media (max-width: 992px){
+  .about-sec-text p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+@media (max-width: 992px){
+  .about-sec-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

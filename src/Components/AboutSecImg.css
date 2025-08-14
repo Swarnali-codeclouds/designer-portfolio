@@ -1,0 +1,16 @@
+.about-sec-img{
+    background: url('./images/bg-shape-2.png') no-repeat center center;
+}
+.img-overlay {
+    bottom: 5%;
+}
+@media (max-width: 992px){
+    .about-sec-img {
+        margin: 35px auto 0;
+        text-align: center;
+    }
+    .about-sec-img img{
+        max-height: 500px;
+        margin: 0 auto;
+    }
+}

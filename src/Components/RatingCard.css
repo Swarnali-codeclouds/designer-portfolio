@@ -1,0 +1,30 @@
+.rating-card-container{
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+    width: 70%;
+    font-family: 'Manrope', sans-serif;
+}
+.rating-card-container h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.star{
+    width: 20px;
+    height: 20px;
+    color: #f5c518;
+    margin-right: 5px;
+}
+.full {
+    fill: #f5c510;
+}
+.half{
+    fill: #f5c510;
+}
+.empty{
+    fill: #e0e0e0;
+}
+.review-count{
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}

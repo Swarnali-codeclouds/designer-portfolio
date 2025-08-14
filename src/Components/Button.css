@@ -1,0 +1,77 @@
+/* Base styles */
+.custom-btn {
+  border: none;
+  padding: 15px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.5s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Variants */
+.custom-btn-primary {
+  background-color: #28e98c;
+  color: #000000;
+}
+
+.custom-btn-primary:hover {
+  background-color: #000000;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.custom-btn-outline {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #fff;
+}
+
+.custom-btn-outline:hover {
+  background-color: #fff;
+  color: #21f08c;
+}
+
+/* Sizes */
+.custom-btn-sm {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+}
+
+.custom-btn-md {
+  padding: 12px 40px;
+  font-size: 1rem;
+}
+
+.custom-btn-lg {
+  padding: 16px 36px;
+  font-size: 1.25rem;
+}
+
+/* Icon styling */
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Unique hover effect with sliding background */
+.custom-btn::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  z-index: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.custom-btn:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+.super-heading{
+ font-size: 1rem;
+ letter-spacing: .2rem;
+}
+@media (max-width: 992px){
+    .super-heading{
+        font-size: 0.8rem;
+        letter-spacing: .1rem;
+        text-align: center;
+    }
+}

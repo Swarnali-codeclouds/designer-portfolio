@@ -1,0 +1,15 @@
+.banner-image{
+    background: url(./images/bg-shape.png) no-repeat center center;
+    background-size: contain;
+}
+@media (max-width: 992px){
+    .banner-image{
+        margin:24px auto 0;
+    }
+    .banner-image img{
+        max-height: 500px;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+}
